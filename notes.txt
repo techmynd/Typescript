@@ -1,0 +1,13 @@
+install typescript globally
+
+>npm -g install typescript
+
+linux or mac
+>sudo npm -g install typescript
+
+===============================
+
+navigate to folder that has scripts.ts and run compiler to have scripts.js copy
+
+>tsc scripts.ts
+
