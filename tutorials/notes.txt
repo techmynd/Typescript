@@ -1,1 +1,3 @@
 https://github.com/codingforentrepreneurs/getting-started-with-typescript
+https://www.codingforentrepreneurs.com/projects/getting-started-typescript/welcome
+
