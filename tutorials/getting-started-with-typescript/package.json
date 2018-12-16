@@ -1,0 +1,28 @@
+{
+  "name": "cfe-ts-setup",
+  "version": "1.0.0",
+  "description": "Learn Typescript setup and some basics!",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2",
+    "typings": "^2.1.1",
+    "webpack": "^2.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "main": "webpack --watch --optimize-minimize",
+    "server": "http-server -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "learn",
+    "tutorial",
+    "webpack",
+    "typescript",
+    "npm"
+  ],
+  "author": "Justin Mitchel",
+  "license": "MIT"
+}
