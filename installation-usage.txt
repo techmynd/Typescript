@@ -1,0 +1,15 @@
+install globally
+================
+
+> yarn add typescript
+or
+> npm install -g typescript
+
+check if its installed
+> tsc
+
+navigate to folder that has scripts.ts and run compiler to have scripts.js copy
+>tsc scripts.ts
+
+
+
