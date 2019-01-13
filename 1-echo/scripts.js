@@ -19,16 +19,40 @@ function hello(string) {
     console.log('hello ' + string);
 }
 hello("John");
+///////////
+///////////
 var n = 1;
 console.log('n');
 //////////////////////////
+///////////
 var ny = 1;
 var nm = 1;
 var st = "Hello World";
 var isWinter = false;
 var names = ["John", "Mark"];
+///////////
+///////////
 // this below is not valid - type can be string or number
-//var names : any[] = ["John", "Mark", 5];
+// var names: any[] = ["John", "Mark", 5];
+///////////
+///////////
 function getName() {
     return "John";
 }
+///////////
+///////////
+var unionTypes;
+unionTypes = "string";
+unionTypes = "34";
+///////////
+///////////
+console.log('watching...');
+var automobile = {
+    brand: "BMW",
+    speed: 20,
+    speedMethod: function () {
+        console.log("this " + this.brand + " is goin at speed of " + this.speed + " KM per hours. ");
+    }
+};
+// or for class
+// class AutomobileClass implements AutomobileInterface {}

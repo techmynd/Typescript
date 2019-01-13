@@ -8,8 +8,16 @@ or
 check if its installed
 > tsc
 
+// create tsc copnfig file
+> tsc --init
+
+// watch tsc file
+> tsc --watch app.ts
+
 navigate to folder that has scripts.ts and run compiler to have scripts.js copy
 >tsc scripts.ts
 
 
-
+online tool
+============
+http://www.typescriptlang.org/play/
