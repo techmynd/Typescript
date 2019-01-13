@@ -56,3 +56,25 @@ var automobile = {
 };
 // or for class
 // class AutomobileClass implements AutomobileInterface {}
+///////////////////////
+// namespace in ts
+//////////////////////
+var MJK;
+(function (MJK) {
+    function run() {
+        console.log('run');
+    }
+    MJK.run = run;
+    function walk() {
+        console.log('walk');
+    }
+    MJK.walk = walk;
+    function stop() {
+        console.log('stop');
+    }
+    MJK.stop = stop;
+})(MJK || (MJK = {}));
+MJK.walk();
+MJK.run();
+MJK.stop();
+// https://www.typescriptlang.org/docs/handbook/namespaces-and-modules.html

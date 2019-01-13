@@ -21,3 +21,6 @@ navigate to folder that has scripts.ts and run compiler to have scripts.js copy
 online tool
 ============
 http://www.typescriptlang.org/play/
+
+sandalone ts in html > adwin d. tutorial on loading modules
+ue systemJS to load modules or run ts in browser

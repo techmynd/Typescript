@@ -92,3 +92,25 @@ const automobile: AutomobileInterface = {
 
 // or for class
 // class AutomobileClass implements AutomobileInterface {}
+
+///////////////////////
+// namespace in ts
+//////////////////////
+
+namespace MJK {
+	export function run(){
+		console.log('run');
+	}
+	export function walk(){
+		console.log('walk');
+	}
+	export function stop(){
+		console.log('stop');
+	}
+}
+
+MJK.walk();
+MJK.run();
+MJK.stop();
+
+// https://www.typescriptlang.org/docs/handbook/namespaces-and-modules.html
