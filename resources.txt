@@ -1,2 +1,4 @@
 http://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
 http://www.typescriptlang.org/docs/handbook/basic-types.html
+
+https://www.youtube.com/watch?v=WBPrJSw7yQA
