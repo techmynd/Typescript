@@ -1,0 +1,6 @@
+run type sript code 
+
+> tsc types.ts
+
+
+
